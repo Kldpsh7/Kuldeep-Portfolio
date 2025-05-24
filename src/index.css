@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body.dark {
     @apply bg-gradient-to-br from-[#101218] to-[#0B192F] text-dark-text;
     /* Ensure text-dark-text (e.g., #E0E0E0) provides good contrast */
